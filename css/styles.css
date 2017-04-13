@@ -1,6 +1,13 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 ul {
   list-style: none;
   color: #d1d1d1;
+  text-align: center;
+  display: inline;
+  font-size: 15px;
 }
 
 ul a {
@@ -10,18 +17,18 @@ ul a {
 
 a:hover{
   color: #000000;
-}
-
-#wrapper {
-  color: #fff;
+  cursor: pointer;
 }
 
 h1 {
   color: #d1d1d1;
+  text-align: center;
+  font-size: 55px;
 }
 
 h1:hover {
   color: #000000;
+  cursor: pointer;
 }
 
 #top, #bottom, #left, #right {
@@ -40,7 +47,7 @@ h1:hover {
     
   #top, #bottom {
     left: 0; right: 0;
-    height: 15px;
+    height: 30px;
     }
 
     #top { top: 0; }
