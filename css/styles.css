@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 ul {
@@ -7,7 +7,7 @@ ul {
   color: #d1d1d1;
   text-align: center;
   display: inline;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 ul a {
@@ -23,7 +23,9 @@ a:hover{
 h1 {
   color: #d1d1d1;
   text-align: center;
-  font-size: 55px;
+  font-size: 60px;
+  line-height: 40px;
+  padding: 15px;
 }
 
 h1:hover {
@@ -38,7 +40,7 @@ h1:hover {
 
   #left, #right {
     top: 0; bottom: 0;
-    width: 150px;
+    width: 140px;
     }
 
     #left { left: 0; }
@@ -47,7 +49,7 @@ h1:hover {
     
   #top, #bottom {
     left: 0; right: 0;
-    height: 30px;
+    height: 20px;
     }
 
     #top { top: 0; }
